@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix Clone</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="firstLook">
+        <div class="nav">
+            <div class="logo">NETFLIX</div>
+            <div class="langAndSignin">
+                <select name="language" id="lang">
+                    <option value="English" selected>English</option>
+                    <option value="Hindi">हिन्दी</option>
+                </select>
+                <a href="https://www.netflix.com/login" id="signIn">Sign In</a>
+            </div>
+        </div>
+
+        <div class="emailAndLine">
+            <div>Unlimited movies, TV shows and more</div>
+            <div>Starts at ₹149. Cancel at any time.</div>
+            <div>Ready to watch? Enter your email to create or restart your membership.</div>
+            <div class="email">
+                <input type="email" class="emailInput" name="email" placeholder="Email address" required>
+                <button id="submit">
+                    Get Started
+                    <img id="next" alt="Free Next  Icon" src="https://cdn.iconscout.com/icon/free/png-256/free-next-icon-download-in-svg-png-gif-file-formats--right-forward-arrow-pack-sign-symbols-icons-2324704.png?f=webp&amp;w=256" srcset="https://cdn.iconscout.com/icon/free/png-256/free-next-icon-download-in-svg-png-gif-file-formats--right-forward-arrow-pack-sign-symbols-icons-2324704.png?f=webp&amp;w=256 1x, https://cdn.iconscout.com/icon/free/png-256/free-next-icon-download-in-svg-png-gif-file-formats--right-forward-arrow-pack-sign-symbols-icons-2324704.png?f=webp&amp;w=512 2x">
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <div class="subheading">Trending Now</div>
+    <div class="trending">
+        <div style="background-image: url(https://occ-0-6246-2186.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABRell2q7GkPUQ6t9PvFIlVQ7aK7tq6TM3n6tiCA2Z-8IrJobpWPtg1PNQ56YtOup7efqbrZlvVCC4IovyUIJd-5G_oYeTRbC8WbUio80NPg9D58J5KJ29wATEk1zH5xJptre8Sq1w9qkswMjq82qMgY-uJm6aNNwTNJcuFf7VlDVDL22FQ773Ua9owfOQkxu182R_3HXWYNkX0PDNm2b-6vLYSpIhVNmrZKBYpeWqZBDG2-5cR9bAy1D_EvRNuRLdb9nVotyQ3S73nz9iajdXsoz7Lqd_LGlK25BfmV0CZauaBuxjNVh4qLuACFfv4GBnOQbWIdUqOnOltRMpIZHg2kikhdVZI6i5L-5RVBfI_dUpnvqeQo.jpg?r=cb7);" class="element">
+            <span>1</span>
+        </div>
+        <div style="background-image: url(https://occ-0-6246-2186.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABfX8vtAjTWazAYFK0Y_taS9Ue-g3nLZiqAsYRhbcp6FziKKDGYmV6gViUguDUc-id2QF1B4NZ6bqpx1kBc3VEE671JTuLXlE5OU2j_JZ5Nb0ew4LR2mry_tLtMWdX-GbtSpdrLMQDOuKeAetqTUSLNnD3csdYoKcoU1zvMXz6_dEL4Teod0iL8zZRnYBeAu-S3hja900BGSuCDcgRDtLCyIOFdzbc3h0hVD-oBcEeqf6gqcQqyvIZfKH6-rSYBnoJUjECQYbqbE-JYMfm9pgO_Z3XbRnW5wPReSWqJaXu3G7D8S5c4O6gra3SB40bSD3Jo8WgKr3j7R8dlxOdgc4OgM.jpg?r=982);" class="element">
+            <span>2</span>
+        </div>
+        <div style="background-image: url(https://occ-0-6246-2186.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABa8ePcb4JOdrSEy-cnYk2B20CauffIYRPJfaZa6VhAscjKE6qYlPhz5RRw3JHaAqEYWuzbSrLDpIeTt8JYZCgRVlIDtiUlsl1nNpjcKixzdfUyanklLNqmVMgC8u6yLiRYrQ0TDc9f5bISCxkfaxxcLdGWX8GWze-a_7E5O2ZlZq0cjUROaMJ3lreYU4N3ZVKJZi_r4bvLsQogY35opVPTbfuQBQhMFF-a_2jc55XrllRHz_3gxvq_HW4Mc_R5TJFnEfL338RDHYMuM9XnWuPjf8ZJbe.jpg?r=3f1);" class="element">
+            <span>3</span>
+        </div>
+        <div style="background-image: url(https://occ-0-6246-2186.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABe1X3_kErU_ERDIfIZoLuLve9e7L2MU30l_flaHcUgyfEMgVwuAqvT7MEco9-650gMIFRJ_K-jLg1ARsKB5IaUFDTa-WqMBnI_oDuOFIwVXXFfccmmPRzzeIdPycobq14tzJvWXm9KFBk8ARLs-m2y33dIatW638mWkcoUm8QhHzIpQbxVXf0B8fD0DYc6FYSXMZIs8Kh1iA0Jud9LV-6Tkd6BWnuiG5CXtJJI-_-t_HUB_5u4a394iSUVKZpouEcqjdYWGHQXMkXRP9BDetCFp57-zeQBQYOAVOcx1qcj9n7DKLdusrVTox8v7-DNjgFGh14PvaKsmvS9duqQ1QSBgAmmIOgAZZYXbPJzRZfpHLHfuwGcg.jpg?r=488);" class="element">
+            <span>4</span>
+        </div>
+
+        <button type="menu" class="rightButton">
+                <img id="next" alt="Free Next  Icon" src="https://cdn.iconscout.com/icon/free/png-256/free-next-icon-download-in-svg-png-gif-file-formats--right-forward-arrow-pack-sign-symbols-icons-2324704.png?f=webp&amp;w=256" srcset="https://cdn.iconscout.com/icon/free/png-256/free-next-icon-download-in-svg-png-gif-file-formats--right-forward-arrow-pack-sign-symbols-icons-2324704.png?f=webp&amp;w=256 1x, https://cdn.iconscout.com/icon/free/png-256/free-next-icon-download-in-svg-png-gif-file-formats--right-forward-arrow-pack-sign-symbols-icons-2324704.png?f=webp&amp;w=512 2x">
+        </button>
+        </div>
+    </div>
+
+    <div class="subheading">More reasons to join</div>
+    <div class="cards">
+        <div class="card">
+            <div class="cardHeading">Enjoy on your TV</div>
+            <p class="content">
+                Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray players and more.
+            </p>
+            <img src="monitor.svg" alt="icon" class="icon">
+        </div>
+        <div class="card">
+            <div class="cardHeading">Download your shows to watch offline</div>
+            <p class="content">
+                Save your favourites easily and always have something to watch.
+            </p>
+            <img src="monitor.svg" alt="icon" class="icon">
+        </div>
+        <div class="card">
+            <div class="cardHeading">Watch everywhere</div>
+            <p class="content">
+                Stream unlimited movies and TV shows on your phone, tablet, laptop and TV.
+            </p>
+            <img src="monitor.svg" alt="icon" class="icon">
+        </div>
+        <div class="card">
+            <div class="cardHeading">Create profiles for kids</div>
+            <p class="content">
+                Send kids on adventures with their favourite characters in a space made just for them — free with your membership.
+            </p>
+            <img src="monitor.svg" alt="icon" class="icon">
+        </div>
+    </div>
+
+    <div class="subheading">Frequently Asked Questions</div>
+    <div class="questions">
+        <div class="ques">
+            <div class="statement">What is Netflix?</div>
+            <div class="plus">+</div>
+        </div>
+
+        <div class="ques">
+            <div class="statement">How much does Netflix cost?</div>
+            <div class="plus">+</div>
+        </div>
+
+        <div class="ques">
+            <div class="statement">Where can I watch?</div>
+            <div class="plus">+</div>
+        </div>
+
+        <div class="ques">
+            <div class="statement">How do I cancel?</div>
+            <div class="plus">+</div>
+        </div>
+
+        <div class="ques">
+            <div class="statement">What can I watch on Netflix?</div>
+            <div class="plus">+</div>
+        </div>
+
+        <div class="ques">
+            <div class="statement">Is Netflix good for kids?</div>
+            <div class="plus">+</div>
+        </div>
+    </div>
+
+    <div class="tagline">Ready to watch? Enter your email to create or restart your membership.</div>
+    <div class="secondEmailInput email">
+        <input class="emailInput" type="email" id="email" name="email" placeholder="Email address" required>
+        <button id="submit">
+            Get Started
+            <img id="next" alt="Free Next  Icon" src="https://cdn.iconscout.com/icon/free/png-256/free-next-icon-download-in-svg-png-gif-file-formats--right-forward-arrow-pack-sign-symbols-icons-2324704.png?f=webp&amp;w=256" srcset="https://cdn.iconscout.com/icon/free/png-256/free-next-icon-download-in-svg-png-gif-file-formats--right-forward-arrow-pack-sign-symbols-icons-2324704.png?f=webp&amp;w=256 1x, https://cdn.iconscout.com/icon/free/png-256/free-next-icon-download-in-svg-png-gif-file-formats--right-forward-arrow-pack-sign-symbols-icons-2324704.png?f=webp&amp;w=512 2x">
+        </button>
+    </div>
+
+    <div class="footer">
+        <div class="contact">
+            <span class="callOn">Questions? Call</span>
+            <a href="">000-800-919-1694</a>
+        </div>
+
+        <div class="links">
+            <a href="">FAQ</a>
+            <a href="">Help Centre</a>
+            <a href="">Account</a>
+            <a href="">Media Centre</a>
+            <a href="">Investor Relations</a>
+            <a href="">Jobs</a>
+            <a href="">Ways to Watch</a>
+            <a href="">Terms of Use</a>
+            <a href="">Privacy</a>
+            <a href="">Cookie Preferences</a>
+            <a href="">Corporate Information</a>
+            <a href="">Contact Us</a>
+            <a href="">Speed Test</a>
+            <a href="">Legal Notices</a>
+            <a href="">Only on Netflix</a>
+        </div>
+
+        <div class="lastOnes">
+            <select name="language" class="secondLang" id="lang">
+                <option value="English" selected>English</option>
+                <option value="Hindi">हिन्दी</option>
+            </select>
+            <div>Netflix India</div>
+        </div>
+    </div>
+    
+</body>
+</html>
